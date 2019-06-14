@@ -83,5 +83,12 @@
 				<param name="includeProperties"/>
 			</result>
         </action>
+        
+         <!-- 晨会自评问题管理 -->
+        <action name="question_*" class="com.sttri.action.QuestionAction" method="{1}">
+            <result name="success" type="json">
+				<param name="includeProperties"/>
+			</result>
+        </action>
     </package>
 </struts>

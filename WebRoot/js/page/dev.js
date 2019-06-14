@@ -338,7 +338,7 @@ function wxPost(id,hlsUrl){
 function getDevNumsMore(){
 	var comId = $("#companyMore").val();
 	if(comId !=""){
-		$.post(path+"/company_getDevNums.do",{"id":comId},function(data){ 　　
+		$.post(path+"/company_getDevNums.do",{"id":comId},function(data){
 			var obj = eval("("+data+")");
 			var total = obj.total;
 			var used = obj.used;
@@ -399,7 +399,7 @@ function setUnUsed(){
 						ids+="_"+rows[i].id;
 					}
 				}
-				$.post(path+"/dev_setUnUsed.do",{"ids":ids},function(data){ 　　
+				$.post(path+"/dev_setUnUsed.do",{"ids":ids},function(data){
 					if("success"==data){
 						$('#'+render).datagrid('clearSelections');
 			     		$.messager.alert('提示',"更新数据成功!");

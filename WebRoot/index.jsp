@@ -38,6 +38,7 @@
 							  			{"menuname":"服务器","icon":"icon-alg","url":"<%=path%>/page/mediaServer.jsp"},
 							  			{"menuname":"版本升级","icon":"icon-alg","url":"<%=path%>/page/control.jsp"},
 							  			{"menuname":"问题反馈","icon":"icon-alg","url":"<%=path%>/page/problem.jsp"},
+							  			{"menuname":"晨会问题管理","icon":"icon-alg","url":"<%=path%>/page/question.jsp"},
 							  			{"menuname":"创建License","icon":"icon-alg","url":"<%=path%>/license.jsp"}
 									  ]
 							 }
